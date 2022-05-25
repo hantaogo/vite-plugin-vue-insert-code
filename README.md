@@ -3,8 +3,13 @@ insert template or script to vue sfc.
 
 # only for vue3 and vite
 
+# install
+
+npm install -D vite-plugin-vue-insert-code
+
 # example
 ```js
+// vite.config.ts
 export default defineConfig({
   plugins: [
     insertcode({
